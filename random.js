@@ -38,6 +38,8 @@ const displayCountrys = (datas) => {
 };
 
 const showDetails = code => {
+    // https://restcountries.com/v3.1/alpha/{code}
+    const details = `https://restcountries.com/v3.1/alpha/${code}`
     console.log('data is comming ',code);
 }
 countrys();
