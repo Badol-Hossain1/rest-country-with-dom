@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #country{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 12px;
+     
+        }
+        .contrys{
+            border: 1px solid red ;
+
+        }
+    </style>
+</head>
+<body>
+    <button onclick="loadUser()">user</button>
+<h1>gender:
+    <span id="gender"></span>
+    <span id="name"></span>
+</h1>
+
+
+<br>
+<div>
+    <h2>countrys : 
+        <span id="country"></span>
+    </h2>
+</div>
+
+    <script src="./random.js"></script>
+</body>
+</html>
